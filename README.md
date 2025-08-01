@@ -2,6 +2,20 @@
 
 A high-performance Flutter application for tracking wildfires using NASA FIRMS data with real-time satellite imagery.
 
+## 📸 Screenshots
+
+### Main Interface
+![Main App Interface](assets/screenshots/main_interface..jpg)
+
+### Fire Details
+![Fire Details Dialog](assets/screenshots/fire_details..jpg)
+
+### Satellite View
+![Satellite View](assets/screenshots/satellite_view.jpg)
+
+### Performance Dashboard
+![Performance Metrics](assets/screenshots/performance.jpg)
+
 ## ✨ Features
 
 - **Real-time Fire Data**: Fetches live wildfire data from NASA FIRMS API
