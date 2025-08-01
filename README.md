@@ -4,17 +4,13 @@ A high-performance Flutter application for tracking wildfires using NASA FIRMS d
 
 ## 📸 Screenshots
 
-### Main Interface
-<img src="assets/screenshots/main_interface..jpg" width="300" alt="Main App Interface">
+| Main Interface | Fire Details |
+|:---:|:---:|
+| <img src="assets/screenshots/main_interface..jpg" width="250" alt="Main App Interface"> | <img src="assets/screenshots/fire_details..jpg" width="250" alt="Fire Details Dialog"> |
 
-### Fire Details
-<img src="assets/screenshots/fire_details..jpg" width="300" alt="Fire Details Dialog">
-
-### Satellite View
-<img src="assets/screenshots/satellite_view.jpg" width="300" alt="Satellite View">
-
-### Performance Dashboard
-<img src="assets/screenshots/performance.jpg" width="300" alt="Performance Metrics">
+| Satellite View | Performance Dashboard |
+|:---:|:---:|
+| <img src="assets/screenshots/satellite_view.jpg" width="250" alt="Satellite View"> | <img src="assets/screenshots/performance.jpg" width="250" alt="Performance Metrics"> |
 
 ## ✨ Features
 
