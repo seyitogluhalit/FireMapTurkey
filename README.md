@@ -4,6 +4,8 @@ A high-performance Flutter application for tracking wildfires using NASA FIRMS d
 
 ## 📸 Screenshots
 
+<div align="center">
+
 | Main Interface | Fire Details |
 |:---:|:---:|
 | <img src="assets/screenshots/main_interface..jpg" width="250" alt="Main App Interface"> | <img src="assets/screenshots/fire_details..jpg" width="250" alt="Fire Details Dialog"> |
@@ -11,6 +13,8 @@ A high-performance Flutter application for tracking wildfires using NASA FIRMS d
 | Satellite View | Performance Dashboard |
 |:---:|:---:|
 | <img src="assets/screenshots/satellite_view.jpg" width="250" alt="Satellite View"> | <img src="assets/screenshots/performance.jpg" width="250" alt="Performance Metrics"> |
+
+</div>
 
 ## ✨ Features
 
@@ -108,9 +112,17 @@ flutter run
 ## 🔧 Configuration
 
 ### API Settings
-- API Key: Configured in `lib/services/firms_service.dart`
+- API Key: Configured via environment variable `FIRMS_API_KEY`
 - Cache Duration: 5 minutes (configurable)
 - Request Timeout: 30 seconds
+
+### Environment Setup
+Create a `.env` file in the project root:
+```
+FIRMS_API_KEY=your_api_key_here
+```
+
+**⚠️ Security Note:** Never commit your API key to version control. The `.env` file is already added to `.gitignore`.
 
 ### Map Settings
 - Default Center: Turkey (39.0, 35.0)

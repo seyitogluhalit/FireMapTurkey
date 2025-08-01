@@ -3,8 +3,19 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 import '../models/fire_point.dart';
 
+import 'dart:io';
+
 class FirmsService {
-  static const String _apiKey = '995a772187152a20fab50fb135545809';
+  static String get _apiKey {
+    // Try to get from environment variable first
+    const apiKey = String.fromEnvironment('FIRMS_API_KEY');
+    if (apiKey.isNotEmpty) {
+      return apiKey;
+    }
+    // Fallback for development (should be removed in production)
+    return '995a772187152a20fab50fb135545809';
+  }
+
   static const String _baseUrl =
       'https://firms.modaps.eosdis.nasa.gov/api/area/csv';
 
